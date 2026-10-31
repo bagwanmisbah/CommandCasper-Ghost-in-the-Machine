@@ -1,0 +1,21 @@
+# Runs the rule-engine tests on every push and pull request.
+# Runs on Windows because Command Casper checks PowerShell commands with
+# Windows-style paths (.\old). Uses only the Python standard library.
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  rules:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rule engine tests (114 commands)
+        run: python test_engine.py
+      - name: Context tests
+        run: python test_context.py

@@ -1,0 +1,6 @@
+.env
+.env.*
+.venv/
+pip-cache/
+__pycache__/
+ghost_error.log

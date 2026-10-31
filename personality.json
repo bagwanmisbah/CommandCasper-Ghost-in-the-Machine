@@ -1,0 +1,18 @@
+{
+  "green": [
+    "You're good to go, mortal.",
+    "Good to go, earthling."
+  ],
+  "yellow": [
+    "Proceed at your own risk, human bean!",
+    "Hmm... I'd peek twice, human."
+  ],
+  "red": [
+    "Hold up, human bean. Think this through!",
+    "Spooky. Are you sure about this?",
+    "Watch out, mortal!"
+  ],
+  "idle": [
+    "Casperr is awake."
+  ]
+}

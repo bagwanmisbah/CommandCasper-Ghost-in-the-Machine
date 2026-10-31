@@ -4,15 +4,17 @@
 
 Type a command (don't press Enter), press **Alt+G**, and Casperr turns **green**, **yellow** or **red**. Click him for a plain-English explanation plus real facts about your folder.
 
-*Built solo for the [Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).*
+*Built for the [Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).*
 
-[VIDEO OR GIF HERE]
+
 
 | 🟢 Green | 🟡 Yellow | 🔴 Red |
 |---|---|---|
 | Only reads things | Changes something, usually recoverable (installs, copies, `git commit`) | Destroys or is hard to undo (deletes, overwrites, `--force`, download-and-run) |
 
-[SCREENSHOTS HERE]
+
+
+
 
 ## The one rule that matters
 
@@ -135,11 +137,10 @@ With the AI switched on, the model is **hosted**, so the **text of the command y
 
 ## Credits
 
-- Ghost artwork: original pixel art by [YOUR NAME].
+- Ghost artwork: original pixel art by Misbah Bagwan
 - Model: [Gemma 4](https://ai.google.dev/gemma) by Google, used through Google AI Studio under its terms.
 - Video music: [TRACK NAME] by [ARTIST] from Pixabay.
 - "Casper" is also the name of a famous cartoon ghost. This project is not affiliated with that character.
 
 ## License
 
-[CHOOSE ONE, for example MIT, or delete this section]
